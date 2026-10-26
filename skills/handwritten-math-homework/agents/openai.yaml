@@ -1,0 +1,4 @@
+interface:
+  display_name: "手写数学作业工作流"
+  short_description: "从题目读取、三至四张字迹参考和数学核对到生图及上传预览"
+  default_prompt: "使用 $handwritten-math-homework，先检查我提供的3–4张含数学符号的手写照片，读取指定普通作业、核对解答并生成图片；按本次授权决定是否上传，最终提交由我点击。"

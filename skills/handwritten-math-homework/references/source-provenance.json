@@ -1,0 +1,61 @@
+{
+  "snapshotDate": "2026-10-26",
+  "sourceDirectory": "$X_SCHEDULE_ROOT/browser-connector",
+  "name": "X Schedule 作业连接器",
+  "version": "0.3.0",
+  "extensionIdDerivedFromPublicKey": "dccpmjhibofgeilhjfmmhpgkfebkpkpb",
+  "permissions": [
+    "scripting"
+  ],
+  "hostPermissions": [
+    "https://smartestu.cn/*",
+    "http://127.0.0.1:17321/*"
+  ],
+  "liveExtensionInstallVerified": false,
+  "files": [
+    {
+      "file": "manifest.json",
+      "bytes": 821,
+      "sha256": "d1701d587d6cd29fb7a90ee4bf11b26254f1d0702e82f2c5ff9989aeabd6b047"
+    },
+    {
+      "file": "background.js",
+      "bytes": 106,
+      "sha256": "67cc498c126baccda4cf0d5eecbf7b9412f44f351e483a9aa43a4641654471be"
+    },
+    {
+      "file": "connect.html",
+      "bytes": 920,
+      "sha256": "296331e829b42fa70d687c257450724c87829e4cbaffd3a62dca2bd8680357dd"
+    },
+    {
+      "file": "connect.js",
+      "bytes": 9956,
+      "sha256": "4d31a63e6d4e7266f236fbf29fe010fc265cf58395e99869c0542f8eb95eb11b"
+    },
+    {
+      "file": "page-command.js",
+      "bytes": 9985,
+      "sha256": "0e54e274a05b3acac22b072be3327d9dc372b0f279174f6c54ea9671317c9f05"
+    },
+    {
+      "file": "upload-command.js",
+      "bytes": 9743,
+      "sha256": "5e15f5c4933890b6bdb401d9de5e61c8f980a1aa95a4db1ee98e542170cadc80"
+    }
+  ],
+  "accessibleToolGuides": [
+    {
+      "file": "tool-guides/imagegen-guide.md",
+      "sourcePath": "$CODEX_HOME/skills/.system/imagegen/SKILL.md",
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba",
+      "kind": "skill entry documentation, not service implementation source"
+    },
+    {
+      "file": "tool-guides/record-and-replay-guide.md",
+      "sourcePath": "$CODEX_HOME/plugins/cache/openai-bundled/record-and-replay/1.0.1001631/skills/record-and-replay/SKILL.md",
+      "sha256": "9e25a9c0c7c4fdd6fec85bc44a9735de45f90282c3bd16a7af350cf44297d7d7",
+      "kind": "skill entry documentation, not service implementation source"
+    }
+  ]
+}

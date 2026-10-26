@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "X Schedule 作业连接器",
+  "version": "0.3.0",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsiZQp8VuF60wH315EneuXvOpeFSiVqIlEQhfF3mBsqqPETYhyoHjDWPbdExw3H0qzLbd/R1pm+p43KR+vSb7q7S8ihTzYaNfvzHgt536OZm3I/r7uCapIio1cvNXJSoreqzP7mIrfmb8Y1ywcvTqJGJHnZwwNLZ9f4d8fVzkH8jnDehCn4ZWB8zwsl9i/cXV+YRvohg2/aEOxnEFQoJ5tTIryeENANcpITQQq8pHUJHNR/H6+zmrMW3QOdZ3Q3LDnDbBKqc8h/WAZLrcIzQyKcr876oQbMg8PCG333AusJw5Oh147a4JGDg+083mewtjYxR+JAlKwKaGRGuowsNFZwIDAQAB",
+  "description": "读取普通作业；应用确认后上传手写图片，最终提交需要再次确认。",
+  "permissions": ["scripting"],
+  "host_permissions": ["https://smartestu.cn/*", "http://127.0.0.1:17321/*"],
+  "action": {"default_title": "连接 X Schedule"},
+  "background": {"service_worker": "background.js"}
+}
